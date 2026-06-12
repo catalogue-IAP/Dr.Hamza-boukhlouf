@@ -22,6 +22,184 @@ body{
     align-items:center;
     min-height:100vh;
 }
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr. Hamza BOUKHLOUF - IAP</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#e5e5e5;
+    font-family:'Segoe UI', Arial, sans-serif;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.card{
+    width:85vw;
+    max-width:850px;
+    aspect-ratio:85/55;
+
+    background:#faf8f3;
+    border-radius:8px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.20);
+
+    display:grid;
+    grid-template-columns:40% 60%;
+    grid-template-rows:55% 45%;
+
+    padding:30px;
+    overflow:hidden;
+}
+
+.logo-block{
+    display:flex;
+    align-items:flex-start;
+    padding-left:10px;
+    padding-top:5px;
+}
+
+.logo-block img{
+    width:15%;
+    min-width:60px;
+    max-width:100px;
+    height:auto;
+}
+
+.identity{
+    padding-left:40px;
+    padding-top:10px;
+}
+
+.name{
+    font-size:clamp(18px,4vw,42px);
+    color:#222;
+    font-weight:300;
+    margin-bottom:10px;
+}
+
+.name strong{
+    font-weight:700;
+}
+
+.position{
+    font-size:clamp(12px,2vw,24px);
+    color:#333;
+    line-height:1.2;
+}
+
+.address{
+    align-self:end;
+    font-size:clamp(10px,1.7vw,18px);
+    color:#333;
+    line-height:1.35;
+}
+
+.website{
+    margin-top:8px;
+    color:#f26b21;
+    font-size:clamp(10px,1.6vw,16px);
+}
+
+.contact{
+    align-self:end;
+    padding-left:40px;
+}
+
+.contact-item{
+    display:flex;
+    align-items:center;
+    margin-bottom:8px;
+    font-size:clamp(10px,1.8vw,18px);
+    color:#222;
+}
+
+.icon{
+    width:28px;
+    text-align:center;
+    margin-right:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="logo-block">
+        <img src="sonatrach_logo.png" alt="SONATRACH IAP">
+    </div>
+
+    <div class="identity">
+
+        <div class="name">
+            Dr. Hamza <strong>BOUKHLOUF</strong>
+        </div>
+
+        <div class="position">
+            Director<br>
+            IAP Hassi Messaoud Training Center
+        </div>
+
+    </div>
+
+    <div class="address">
+
+        SONATRACH / Institut<br>
+        Algérien du Pétrole (IAP)<br>
+        Hassi Messaoud Training Center<br>
+        BP 54<br>
+        Ouargla 30500, Algeria
+
+        <div class="website">
+            https://sonatrach.com
+        </div>
+
+    </div>
+
+    <div class="contact">
+
+        <div class="contact-item">
+            <span class="icon">☎</span>
+            +213 (0) 24 79 57 00
+        </div>
+
+        <div class="contact-item">
+            <span class="icon">📱</span>
+            +213 (0) 670 447 090
+        </div>
+
+        <div class="contact-item">
+            <span class="icon">🖨</span>
+            +213 (0) 29 79 88 94
+        </div>
+
+        <div class="contact-item">
+            <span class="icon">✉</span>
+            Hamza.BOUKHLOUF@sonatrach.dz
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
+```
 
 .card{
     width:85vw;
@@ -207,4 +385,3 @@ body{
 
 </body>
 </html>
-```
